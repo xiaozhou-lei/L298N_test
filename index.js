@@ -1,4 +1,4 @@
-const l298n = formatMessage => ({
+const l298n1 = formatMessage => ({
     name: 'L298N1',
     extensionId: 'l298n1',
     version: '1.0.0',
@@ -17,8 +17,8 @@ const l298n = formatMessage => ({
     msg: 'msg.js',
     library: 'lib',
     official: true,
-    tags: ['actuator'],
+    tags: ['userExt'],
     helpLink: 'https://openblockcc.gitee.io/wiki/main'
 });
 
-module.exports = l298n;
+module.exports = l298n1;
